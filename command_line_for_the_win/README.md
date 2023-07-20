@@ -4,12 +4,16 @@
 This project is NOT mandatory at all. It is 100% optional. Doing any part of this project will add a project grade of over 100% to your average. Your score won’t get hurt if you don’t do it, but if your current average is greater than your score on this project, your average might go down. Have fun!
 
 <h2>Requirements</h2>
+
 <h3>General</h3>
-A README.md file, at the root of the folder of the project, is mandatory
-This project will be manually reviewed.
-As each task is completed, the name of that task will turn green
-Create a screenshot, showing that you completed the required levels
-Push this screenshot with the right name to GitHub, in either the PNG or JPEG format
+
+<ul>
+    <li>A README.md file, at the root of the folder of the project, is mandatory</li>
+    <li>This project will be manually reviewed.</li>
+    <li>As each task is completed, the name of that task will turn green</li>
+    <li>Create a screenshot, showing that you completed the required levels</li>
+    <li>Push this screenshot with the right name to GitHub, in either the PNG or JPEG format</li>
+</ul>
 <h3>Specific</h3>
 In addition to completing the project tasks and submitting the required screenshots to GitHub, you are also required to demonstrate the use of the SFTP (Secure File Transfer Protocol) command-line tool to move your local screenshots to the sandbox environment.
 
