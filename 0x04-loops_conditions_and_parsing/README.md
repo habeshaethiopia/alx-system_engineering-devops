@@ -1,65 +1,11 @@
 <h1 class="gap">0x04. Loops, conditions and parsing</h1>
-<div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[{&quot;id&quot;:6,&quot;value&quot;:&quot;DevOps&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:10,&quot;value&quot;:&quot;Shell&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:11,&quot;value&quot;:&quot;Bash&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:28,&quot;value&quot;:&quot;Scripting&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;}]}" data-react-cache-id="tags/Tags-0"><div class="align-items-center d-flex flex-wrap gap-3 my-2" 
-style ="-webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    font-size: 14px;
-    line-height: 1.428571429;
-    color: #333333;
-    box-sizing: border-box;
-    align-items: center !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 1rem !important;
-    margin-bottom: 10px !important;
-    margin-top: 10px !important;">
-<span class="label label-primary" style="font-size: 14px;">DevOps </span>
-<span class="label label-primary" style="font-size: 14px;">Shell </span>
-<span class="label label-primary" style="font-size: 14px;">Bash </span>
-<span class="label label-primary" style="font-size: 14px;">Scripting</span>
+<div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[{&quot;id&quot;:6,&quot;value&quot;:&quot;DevOps&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:10,&quot;value&quot;:&quot;Shell&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:11,&quot;value&quot;:&quot;Bash&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:28,&quot;value&quot;:&quot;Scripting&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;}]}" data-react-cache-id="tags/Tags-0"><div class="align-items-center d-flex flex-wrap gap-3 my-2" style =  "">
+<code class="label label-primary" style="font-size: 14px;">DevOps </code>
+<code class="label label-primary" style="font-size: 14px;">Shell </code>
+<code class="label label-primary" style="font-size: 14px;">Bash </code>
+<code class="label label-primary" style="font-size: 14px;">Scripting</code>
 </div></div>
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    --col-bg-400: #121212;
-    --col-bg-500: #1e1f22;
-    --col-bg-600: #2b2d31;
-    --col-bg-700: #313338;
-    --col-bg-800: #383a40;
-    --col-current-date: #888672;
-    --col-second-deadline: #ff00002b;
-    --col-second-deadline-link: #c8bfbf;
-    --col-acc-400: #df3e3e;
-    --col-acc-500: #f36262;
-    --col-code-color: #e55039;
-    --col-quiz-pass: #38b000;
-    --col-code-pass: #284724;
-    --col-code-fail: #521b1b;
-    --col-requirement-pass: #28472466;
-    --col-requirement-fail: #521b1b66;
-    --col-efficiency-success: #291531;
-    --col-efficiency-fail: #7d6e18;
-    --col-answer-success: #151a48;
-    --col-answer-fail: #774e1d;
-    --col-light-400: #fff;
-    --col-light-500: #ddd3d3;
-    --col-light-600: #a79a9a;
-    --col-light-700: #837a7a;
-    --col-light-800: #746d6d;
-    --col-bg-clear: transparent;
-    --darkreader-neutral-background: #212222;
-    --darkreader-neutral-text: #eae3d9;
-    --darkreader-selection-background: #165aaa;
-    --darkreader-selection-text: #fbf5ec;
-    font-family: "aktiv-grotesk", sans-serif;
-    font-size: 14px;
-    line-height: 1.428571429;
-    color: #333333;
-    box-sizing: border-box;
-    align-items: center !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 1rem !important;
-    margin-bottom: 10px !important;
-    margin-top: 10px !important;
+
 <div class="panel panel-default" id="project-description">
   <div class="panel-body">
     <h2>Background Context</h2>
