@@ -1,1 +1,9 @@
 #!/usr/bin/env bash
+# my prints best School 10 times
+i=1
+until [ $i -gt 10 ]
+do
+    ((i++))
+    st="Best School"
+	echo "$st";
+done
