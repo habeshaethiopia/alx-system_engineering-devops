@@ -1,5 +1,23 @@
 <h1 class="gap">0x04. Loops, conditions and parsing</h1>
-<div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[{&quot;id&quot;:6,&quot;value&quot;:&quot;DevOps&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:10,&quot;value&quot;:&quot;Shell&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:11,&quot;value&quot;:&quot;Bash&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:28,&quot;value&quot;:&quot;Scripting&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;}]}" data-react-cache-id="tags/Tags-0"><div class="align-items-center d-flex flex-wrap gap-3 my-2" style =  "    -webkit-text-size-adjust: 100%;
+<div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[{&quot;id&quot;:6,&quot;value&quot;:&quot;DevOps&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:10,&quot;value&quot;:&quot;Shell&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:11,&quot;value&quot;:&quot;Bash&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:28,&quot;value&quot;:&quot;Scripting&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;}]}" data-react-cache-id="tags/Tags-0"><div class="align-items-center d-flex flex-wrap gap-3 my-2" 
+style ="-webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    box-sizing: border-box;
+    align-items: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;">
+<span class="label label-primary" style="font-size: 14px;">DevOps </span>
+<span class="label label-primary" style="font-size: 14px;">Shell </span>
+<span class="label label-primary" style="font-size: 14px;">Bash </span>
+<span class="label label-primary" style="font-size: 14px;">Scripting</span>
+</div></div>
+    -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     --col-bg-400: #121212;
     --col-bg-500: #1e1f22;
@@ -31,7 +49,7 @@
     --darkreader-neutral-text: #eae3d9;
     --darkreader-selection-background: #165aaa;
     --darkreader-selection-text: #fbf5ec;
-    font-family: 'aktiv-grotesk ', sans-serif;
+    font-family: "aktiv-grotesk", sans-serif;
     font-size: 14px;
     line-height: 1.428571429;
     color: #333333;
@@ -41,12 +59,7 @@
     flex-wrap: wrap !important;
     gap: 1rem !important;
     margin-bottom: 10px !important;
-    margin-top: 10px !important;">
-<span class="label label-primary" style="font-size: 14px;">DevOps</span>
-<span class="label label-primary" style="font-size: 14px;">Shell</span>
-<span class="label label-primary" style="font-size: 14px;">Bash</span>
-<span class="label label-primary" style="font-size: 14px;">Scripting</span>
-</div></div>
+    margin-top: 10px !important;
 <div class="panel panel-default" id="project-description">
   <div class="panel-body">
     <h2>Background Context</h2>
