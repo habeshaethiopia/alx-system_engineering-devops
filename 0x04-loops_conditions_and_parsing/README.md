@@ -1,6 +1,6 @@
 <h1 class="gap">0x04. Loops, conditions and parsing</h1>
 <div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[{&quot;id&quot;:6,&quot;value&quot;:&quot;DevOps&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:10,&quot;value&quot;:&quot;Shell&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:11,&quot;value&quot;:&quot;Bash&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:28,&quot;value&quot;:&quot;Scripting&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;}]}" data-react-cache-id="tags/Tags-0"><div class="align-items-center d-flex flex-wrap gap-3 my-2" style =  "">
-<code>DevOps</code> <code>Shell</code> <code>Bash</code> <code>Scripting</code>
+<code style ="background-color: red;">DevOps</code> <code style ="background-color: red;">Shell</code> <code style ="background-color: red;">Bash</code> <code style ="background-color: red;">Scripting</code>
 </div></div>
 
 <div class="panel panel-default" id="project-description">
