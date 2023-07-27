@@ -6,7 +6,7 @@ do
     st="Best School"
 	echo "$st";
     if [ $i = 9 ]
-    then echo "hi";
+    then echo "Hi";
     fi
     ((i++))
 done
