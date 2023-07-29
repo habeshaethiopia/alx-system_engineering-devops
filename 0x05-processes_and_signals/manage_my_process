@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Tha advance 2
+while true
+do 
+echo "I am alive!"|sudo tee /tmp/my_process
+sleep 2
+done
