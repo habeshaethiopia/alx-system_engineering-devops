@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this is all files
+# shellcheck disable=SC2009
+ps -faux
