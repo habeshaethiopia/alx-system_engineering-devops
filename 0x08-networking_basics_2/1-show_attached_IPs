@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+#print the v4 ip address
+ifconfig |grep "inet " |awk -F ' ' '{print $2}'
