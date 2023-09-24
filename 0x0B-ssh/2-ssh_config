@@ -1,1 +1,5 @@
 #!/usr/bin/env bash
+#configur the server
+ssh -i ~/.ssh/school ubuntu@8.8.8.8;
+echo -e "Host school\n\tHostName 98.98.98.98\n\tUser ubuntu\n\tIdentityFile ~/.ssh/school\n\tPasswordAuthentication no" >> ~/.ssh/config
+
