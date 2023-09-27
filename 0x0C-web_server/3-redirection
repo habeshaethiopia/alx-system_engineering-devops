@@ -3,6 +3,19 @@
 apt update;
 apt-get -y install nginx;
 echo "Hello World!" > /var/www/html/index.html;
-sed -i '/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+echo 'server {
+    listen 80;
+    server_name 35.174.204.151;
+
+    location /redirect_me {
+        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+    }
+
+    location / {
+        # Your existing server configuration goes here
+        # ...
+    }
+}'> /etc/nginx/sites-available/redirect.conf
+ln -s /etc/nginx/sites-available/redirect.conf /etc/nginx/sites-enabled/
 ufw allow 'Nginx HTTP';
 /etc/init.d/nginx start
