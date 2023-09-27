@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
+#redirect to other page
 str="server {\n
     \nlocation /redirect_me {
-       \n return 301 http://example.com/another-page;
-   \n }\n
+       \n return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4\n }\n
 }"
 sudo sed -i "/server {/a $str" /etc/nginx/sites-available/default
