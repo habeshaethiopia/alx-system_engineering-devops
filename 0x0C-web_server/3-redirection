@@ -17,5 +17,6 @@ echo 'server {
     }
 }'> /etc/nginx/sites-available/redirect.conf
 ln -s /etc/nginx/sites-available/redirect.conf /etc/nginx/sites-enabled/
+sed -i 's/world/world/' /var/www/html/index.html
 ufw allow 'Nginx HTTP';
 /etc/init.d/nginx start
