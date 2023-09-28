@@ -1,1 +1,5 @@
-task 0 project 0x00. shell basics
+#0x0D. Web stack debugging #0
+DevOps
+SysAdmin
+Scripting
+Debugging
