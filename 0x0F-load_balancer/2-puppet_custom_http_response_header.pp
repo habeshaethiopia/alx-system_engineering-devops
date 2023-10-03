@@ -14,13 +14,14 @@ file_line { 'redirect':
   line    => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
   require =>Package['nginx'],
 }
-file_line { 'heade':
+file_line { 'header':
   ensure  => 'present',
-  path    => '/etc/nginx/nginx.conf',
-  after   =>'sendfile on;',
+  path    => '/etc/nginx/sites-available/default',
+  after   => 'server_name _;',
   line    => 'add_header X-Served-By "$HOSTNAME";',
   require => Pakage['nginx'],
 }
+
 file{ '/var/www/html/index.html':
   content => 'hello world',
   require => Package['nginx'],
