@@ -1,3 +1,4 @@
+#this is the configuration of nginx server
 exec { 'update':
   command => 'usr/bin/apt-get -y update',
 }
