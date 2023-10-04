@@ -2,4 +2,4 @@
 #debuging one why port 80 works
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 service nginx start
-pkill -q nginx
+pkill -1 nginx
