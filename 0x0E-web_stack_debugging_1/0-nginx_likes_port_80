@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#debuging one why port 80 works
+ufw allow 80
