@@ -2,4 +2,6 @@
 #debuging one why port 80 works
 sed -i 's/8080/80/g' /etc/nginx/sites-available/default
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-service nginx start
+sed -i 's/ipv6only=on//g' /etc/nginx/sites-enabled/default
+sed -i 's/ipv6only=on//g' /etc/nginx/sites-available/default
+service nginx restart
