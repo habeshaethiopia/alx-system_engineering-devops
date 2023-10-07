@@ -13,10 +13,10 @@ func()
 		lb01_rec="$(dig "lb-01.$1" | grep -A1 'ANSWER SECTION:' | awk '{print $4}' | tr -d '\n')"
 		web01_rec="$(dig "web-01.$1" | grep -A1 'ANSWER SECTION:' | awk '{print $4}' | tr -d '\n')"
 		web02_rec="$(dig "web-02.$1" | grep -A1 'ANSWER SECTION:' | awk '{print $4}' | tr -d '\n')"
-		echo "The subdomain www is a $wwwrec record and points to $wwwip"
-		echo "The subdomain lb-01 is a $lb01rec record and points to $lb01ip"
-		echo "The subdomain web-01 is a $web01rec record and points to $web01ip"
-		echo "The subdomain web-02 is a $web02rec record and points to $web02ip"
+		echo "The subdomain www is a $www_rec record and points to $www_ip"
+		echo "The subdomain lb-01 is a $lb01_rec record and points to $lb01_ip"
+		echo "The subdomain web-01 is a $web01_rec record and points to $web01_ip"
+		echo "The subdomain web-02 is a $web02_rec record and points to $web02_ip"
 	elif [ "$2" ]
 	then
 		sub="$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | awk '{print $1}' | tr -d '\n;' | cut -d'.' -f1)"
