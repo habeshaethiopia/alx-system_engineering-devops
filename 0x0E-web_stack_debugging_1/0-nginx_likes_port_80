@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # nginx like port 80
-
+apt-get update
+apt-get -y install curl
 sed -i 's/8080/80/g' /etc/nginx/sites-available/default
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-service nginx start
-exit 2
+sudo service nginx restart 
