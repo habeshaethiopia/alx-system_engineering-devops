@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 """INtro to restfulapi"""
-import requests
-import urllib
-from sys import argv
+# ??? import alphabeticaly
+
+
 import json
+import requests
+import sys
+import urllib
 
 
 if __name__ == "__main__":
@@ -14,20 +17,21 @@ if __name__ == "__main__":
     response2 = json.loads(
         (
             urllib.request.urlopen(
-                f"https://jsonplaceholder.typicode.com/users/{argv[1]}"
+                f"https://jsonplaceholder.typicode.com/users/{sys.argv[1]}"
             )
             .read()
             .decode("utf-8")
         )
     )
     for i in response:
-        if i.get("userId") == int(argv[1]):
+        if i.get("userId") == int(sys.argv[1]):
             result.append(i)
             if i.get("completed") is True:
                 count += 1
     print(
-        f"Employee {response2.get('name')} is done with tasks\
-        ({count}/{len(result)})"
+        "Employee {} is done with tasks({}/{})".format(
+            response2.get("name"), count, len(result)
+        )
     )
     for i in result:
         if i.get("completed") is True:
