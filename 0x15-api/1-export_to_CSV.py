@@ -25,7 +25,7 @@ if __name__ == "__main__":
             result.append(i)
             if i.get("completed") is True:
                 count += 1
-    name = response2.get("name")
+    name = response2.get("username")
     with open("{}.csv".format(sys.argv[1]), "w") as f:
         for i in result:
             f.write(
