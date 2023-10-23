@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 """INtro to restfulapi"""
-# ??? import alphabeticaly
-
-
 import json
 import requests
 import sys
@@ -29,7 +26,7 @@ if __name__ == "__main__":
             if i.get("completed") is True:
                 count += 1
     print(
-        "Employee {} is done with tasks({}/{})".format(
+        "Employee {} is done with tasks({}/{}):".format(
             response2.get("name"), count, len(result)
         )
     )
