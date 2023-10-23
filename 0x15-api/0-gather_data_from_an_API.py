@@ -9,7 +9,8 @@ import json
 if __name__ == "__main__":
     result = []
     count = 0
-    response = requests.get("https://jsonplaceholder.typicode.com/todos/").json()
+    response = requests.get(
+        "https://jsonplaceholder.typicode.com/todos/").json()
     response2 = json.loads(
         (
             urllib.request.urlopen(
