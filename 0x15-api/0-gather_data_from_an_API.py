@@ -25,5 +25,5 @@ print(
     f"Employee {response2.get('name')} is done with tasks\
     ({count}/{len(result)})")
 for i in result:
-    if i["completed"] is True:
-        print("\t {}".format(i["title"]))
+    if i.get("completed") is True:
+        print("\t {}".format(i.get("title")))
