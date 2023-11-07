@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """Top Ten"""
 import requests
+
+
 def top_ten(subreddit):
     """the top ten"""
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
