@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """the recursive function"""
 import requests
+
+
 def recurse(subreddit, hot_list=[]):
     """recursive function"""
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
