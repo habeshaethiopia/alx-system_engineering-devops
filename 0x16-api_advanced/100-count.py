@@ -2,16 +2,18 @@
 """the recursive word count"""
 import requests
 
+
 def count_words(subreddit, word_list):
     word_counts = {}
     word_list = [word.lower() for word in word_list]
 
-
     count_words_recursive(subreddit, word_list, None, word_counts)
 
-    sorted_word_counts = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)
+    sorted_word_counts = sorted(word_counts.items(),
+                                key=lambda x: x[1], reverse=True)
     for word, count in sorted_word_counts:
         print("{}: {}".format(word, count))
+
 
 def count_words_recursive(subreddit, word_list, after, word_counts):
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
