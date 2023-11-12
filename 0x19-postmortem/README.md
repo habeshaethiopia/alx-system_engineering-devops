@@ -2,42 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-`<style>
-  /* CSS for indentation and styling */
-  .section {
-    margin-left: 20px;
-  }
-  .summary {
-    font-weight: bold;
-  }
-  .timeline {
-    margin-left: 20px;
-  }
-  .root-cause {
-    font-weight: bold;
-  }
-  .resolution {
-    font-weight: bold;
-  }
-  .prevention {
-    font-weight: bold;
-  }
-  .lessons {
-    font-weight: bold;
-  }
-  /* CSS for the interactive image */
-  .image-container {
-    text-align: center;
-  }
-  .clickable-image {
-    width: 300px;
-    cursor: pointer;
-    transition: transform 0.2s;
-  }
-  .clickable-image:hover {
-    transform: scale(1.1);
-  }
-</style>`
+
 </head>
 <body>
 
