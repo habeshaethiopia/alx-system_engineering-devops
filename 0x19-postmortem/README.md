@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-`<style>`
+`<style>
   /* CSS for indentation and styling */
   .section {
     margin-left: 20px;
@@ -37,7 +37,7 @@
   .clickable-image:hover {
     transform: scale(1.1);
   }
-`</style>`
+</style>`
 </head>
 <body>
 
