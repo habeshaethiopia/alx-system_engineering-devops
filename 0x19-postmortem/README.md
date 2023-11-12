@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+`<style>
   /* CSS for indentation and styling */
   .section {
     margin-left: 20px;
@@ -37,7 +37,7 @@
   .clickable-image:hover {
     transform: scale(1.1);
   }
-</style>
+</style>`
 </head>
 <body>
 
@@ -49,7 +49,7 @@
 
 <!-- Insert your interactive image with a link here -->
 <div class="image-container">
-  <a href="https://example.com">
+  <a href="">
     <img class="clickable-image" src="https://www.figma.com/community/thumbnail?resource_id=754026612866636376&resource_type=plugin" alt="Inspiring Image" />
   </a>
 </div>
