@@ -5,7 +5,7 @@
 
 </head>
 <body>
-
+#h1 web stack debugging project issue report(postmortem)
   <div class="section">
   <h2 class="summary">Summary:</h2>
   On NOV 8 2023, an incident occurred in my server due to a misspelling in the Apache config file. The file was mistakenly configured to use the file extension ".phpp" instead of the correct ".php" extension. This resulted in unexpected behavior and caused disruptions to the web server's functionality.
